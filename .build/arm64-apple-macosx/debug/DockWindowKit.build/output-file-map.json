@@ -1,0 +1,47 @@
+{
+  "": {
+    "swift-dependencies": "/Users/akhlaqahmad/local-projects/my-dock-my/DockedMy/Packages/DockWindowKit/.build/arm64-apple-macosx/debug/DockWindowKit.build/primary.swiftdeps"
+  },
+  "/Users/akhlaqahmad/local-projects/my-dock-my/DockedMy/Packages/DockWindowKit/Sources/DockWindowKit/DockHostView.swift": {
+    "dependencies": "/Users/akhlaqahmad/local-projects/my-dock-my/DockedMy/Packages/DockWindowKit/.build/arm64-apple-macosx/debug/DockWindowKit.build/DockHostView.d",
+    "object": "/Users/akhlaqahmad/local-projects/my-dock-my/DockedMy/Packages/DockWindowKit/.build/arm64-apple-macosx/debug/DockWindowKit.build/DockHostView.swift.o",
+    "swiftmodule": "/Users/akhlaqahmad/local-projects/my-dock-my/DockedMy/Packages/DockWindowKit/.build/arm64-apple-macosx/debug/DockWindowKit.build/DockHostView~partial.swiftmodule",
+    "swift-dependencies": "/Users/akhlaqahmad/local-projects/my-dock-my/DockedMy/Packages/DockWindowKit/.build/arm64-apple-macosx/debug/DockWindowKit.build/DockHostView.swiftdeps",
+    "diagnostics": "/Users/akhlaqahmad/local-projects/my-dock-my/DockedMy/Packages/DockWindowKit/.build/arm64-apple-macosx/debug/DockWindowKit.build/DockHostView.dia"
+  },
+  "/Users/akhlaqahmad/local-projects/my-dock-my/DockedMy/Packages/DockWindowKit/Sources/DockWindowKit/DockItemView.swift": {
+    "dependencies": "/Users/akhlaqahmad/local-projects/my-dock-my/DockedMy/Packages/DockWindowKit/.build/arm64-apple-macosx/debug/DockWindowKit.build/DockItemView.d",
+    "object": "/Users/akhlaqahmad/local-projects/my-dock-my/DockedMy/Packages/DockWindowKit/.build/arm64-apple-macosx/debug/DockWindowKit.build/DockItemView.swift.o",
+    "swiftmodule": "/Users/akhlaqahmad/local-projects/my-dock-my/DockedMy/Packages/DockWindowKit/.build/arm64-apple-macosx/debug/DockWindowKit.build/DockItemView~partial.swiftmodule",
+    "swift-dependencies": "/Users/akhlaqahmad/local-projects/my-dock-my/DockedMy/Packages/DockWindowKit/.build/arm64-apple-macosx/debug/DockWindowKit.build/DockItemView.swiftdeps",
+    "diagnostics": "/Users/akhlaqahmad/local-projects/my-dock-my/DockedMy/Packages/DockWindowKit/.build/arm64-apple-macosx/debug/DockWindowKit.build/DockItemView.dia"
+  },
+  "/Users/akhlaqahmad/local-projects/my-dock-my/DockedMy/Packages/DockWindowKit/Sources/DockWindowKit/DockWindowController.swift": {
+    "dependencies": "/Users/akhlaqahmad/local-projects/my-dock-my/DockedMy/Packages/DockWindowKit/.build/arm64-apple-macosx/debug/DockWindowKit.build/DockWindowController.d",
+    "object": "/Users/akhlaqahmad/local-projects/my-dock-my/DockedMy/Packages/DockWindowKit/.build/arm64-apple-macosx/debug/DockWindowKit.build/DockWindowController.swift.o",
+    "swiftmodule": "/Users/akhlaqahmad/local-projects/my-dock-my/DockedMy/Packages/DockWindowKit/.build/arm64-apple-macosx/debug/DockWindowKit.build/DockWindowController~partial.swiftmodule",
+    "swift-dependencies": "/Users/akhlaqahmad/local-projects/my-dock-my/DockedMy/Packages/DockWindowKit/.build/arm64-apple-macosx/debug/DockWindowKit.build/DockWindowController.swiftdeps",
+    "diagnostics": "/Users/akhlaqahmad/local-projects/my-dock-my/DockedMy/Packages/DockWindowKit/.build/arm64-apple-macosx/debug/DockWindowKit.build/DockWindowController.dia"
+  },
+  "/Users/akhlaqahmad/local-projects/my-dock-my/DockedMy/Packages/DockWindowKit/Sources/DockWindowKit/DockWindowOrchestrator.swift": {
+    "dependencies": "/Users/akhlaqahmad/local-projects/my-dock-my/DockedMy/Packages/DockWindowKit/.build/arm64-apple-macosx/debug/DockWindowKit.build/DockWindowOrchestrator.d",
+    "object": "/Users/akhlaqahmad/local-projects/my-dock-my/DockedMy/Packages/DockWindowKit/.build/arm64-apple-macosx/debug/DockWindowKit.build/DockWindowOrchestrator.swift.o",
+    "swiftmodule": "/Users/akhlaqahmad/local-projects/my-dock-my/DockedMy/Packages/DockWindowKit/.build/arm64-apple-macosx/debug/DockWindowKit.build/DockWindowOrchestrator~partial.swiftmodule",
+    "swift-dependencies": "/Users/akhlaqahmad/local-projects/my-dock-my/DockedMy/Packages/DockWindowKit/.build/arm64-apple-macosx/debug/DockWindowKit.build/DockWindowOrchestrator.swiftdeps",
+    "diagnostics": "/Users/akhlaqahmad/local-projects/my-dock-my/DockedMy/Packages/DockWindowKit/.build/arm64-apple-macosx/debug/DockWindowKit.build/DockWindowOrchestrator.dia"
+  },
+  "/Users/akhlaqahmad/local-projects/my-dock-my/DockedMy/Packages/DockWindowKit/Sources/DockWindowKit/FloatingDockPanel.swift": {
+    "dependencies": "/Users/akhlaqahmad/local-projects/my-dock-my/DockedMy/Packages/DockWindowKit/.build/arm64-apple-macosx/debug/DockWindowKit.build/FloatingDockPanel.d",
+    "object": "/Users/akhlaqahmad/local-projects/my-dock-my/DockedMy/Packages/DockWindowKit/.build/arm64-apple-macosx/debug/DockWindowKit.build/FloatingDockPanel.swift.o",
+    "swiftmodule": "/Users/akhlaqahmad/local-projects/my-dock-my/DockedMy/Packages/DockWindowKit/.build/arm64-apple-macosx/debug/DockWindowKit.build/FloatingDockPanel~partial.swiftmodule",
+    "swift-dependencies": "/Users/akhlaqahmad/local-projects/my-dock-my/DockedMy/Packages/DockWindowKit/.build/arm64-apple-macosx/debug/DockWindowKit.build/FloatingDockPanel.swiftdeps",
+    "diagnostics": "/Users/akhlaqahmad/local-projects/my-dock-my/DockedMy/Packages/DockWindowKit/.build/arm64-apple-macosx/debug/DockWindowKit.build/FloatingDockPanel.dia"
+  },
+  "/Users/akhlaqahmad/local-projects/my-dock-my/DockedMy/Packages/DockWindowKit/Sources/DockWindowKit/VisualEffectBlur.swift": {
+    "dependencies": "/Users/akhlaqahmad/local-projects/my-dock-my/DockedMy/Packages/DockWindowKit/.build/arm64-apple-macosx/debug/DockWindowKit.build/VisualEffectBlur.d",
+    "object": "/Users/akhlaqahmad/local-projects/my-dock-my/DockedMy/Packages/DockWindowKit/.build/arm64-apple-macosx/debug/DockWindowKit.build/VisualEffectBlur.swift.o",
+    "swiftmodule": "/Users/akhlaqahmad/local-projects/my-dock-my/DockedMy/Packages/DockWindowKit/.build/arm64-apple-macosx/debug/DockWindowKit.build/VisualEffectBlur~partial.swiftmodule",
+    "swift-dependencies": "/Users/akhlaqahmad/local-projects/my-dock-my/DockedMy/Packages/DockWindowKit/.build/arm64-apple-macosx/debug/DockWindowKit.build/VisualEffectBlur.swiftdeps",
+    "diagnostics": "/Users/akhlaqahmad/local-projects/my-dock-my/DockedMy/Packages/DockWindowKit/.build/arm64-apple-macosx/debug/DockWindowKit.build/VisualEffectBlur.dia"
+  }
+}

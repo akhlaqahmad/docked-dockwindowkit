@@ -1,0 +1,69 @@
+{
+  "object" : {
+    "artifacts" : [
+
+    ],
+    "dependencies" : [
+      {
+        "basedOn" : null,
+        "packageRef" : {
+          "identity" : "appcore",
+          "kind" : "fileSystem",
+          "location" : "/Users/akhlaqahmad/local-projects/my-dock-my/DockedMy/Packages/AppCore",
+          "name" : "AppCore"
+        },
+        "state" : {
+          "name" : "fileSystem",
+          "path" : "/Users/akhlaqahmad/local-projects/my-dock-my/DockedMy/Packages/AppCore"
+        },
+        "subpath" : "appcore"
+      },
+      {
+        "basedOn" : null,
+        "packageRef" : {
+          "identity" : "designsystem",
+          "kind" : "fileSystem",
+          "location" : "/Users/akhlaqahmad/local-projects/my-dock-my/DockedMy/Packages/DesignSystem",
+          "name" : "DesignSystem"
+        },
+        "state" : {
+          "name" : "fileSystem",
+          "path" : "/Users/akhlaqahmad/local-projects/my-dock-my/DockedMy/Packages/DesignSystem"
+        },
+        "subpath" : "designsystem"
+      },
+      {
+        "basedOn" : null,
+        "packageRef" : {
+          "identity" : "displaykit",
+          "kind" : "fileSystem",
+          "location" : "/Users/akhlaqahmad/local-projects/my-dock-my/DockedMy/Packages/DisplayKit",
+          "name" : "DisplayKit"
+        },
+        "state" : {
+          "name" : "fileSystem",
+          "path" : "/Users/akhlaqahmad/local-projects/my-dock-my/DockedMy/Packages/DisplayKit"
+        },
+        "subpath" : "displaykit"
+      },
+      {
+        "basedOn" : null,
+        "packageRef" : {
+          "identity" : "workspacekit",
+          "kind" : "fileSystem",
+          "location" : "/Users/akhlaqahmad/local-projects/my-dock-my/DockedMy/Packages/WorkspaceKit",
+          "name" : "WorkspaceKit"
+        },
+        "state" : {
+          "name" : "fileSystem",
+          "path" : "/Users/akhlaqahmad/local-projects/my-dock-my/DockedMy/Packages/WorkspaceKit"
+        },
+        "subpath" : "workspacekit"
+      }
+    ],
+    "prebuilts" : [
+
+    ]
+  },
+  "version" : 7
+}

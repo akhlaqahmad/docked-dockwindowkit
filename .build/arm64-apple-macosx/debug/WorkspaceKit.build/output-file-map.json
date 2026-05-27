@@ -1,0 +1,33 @@
+{
+  "": {
+    "swift-dependencies": "/Users/akhlaqahmad/local-projects/my-dock-my/DockedMy/Packages/DockWindowKit/.build/arm64-apple-macosx/debug/WorkspaceKit.build/primary.swiftdeps"
+  },
+  "/Users/akhlaqahmad/local-projects/my-dock-my/DockedMy/Packages/WorkspaceKit/Sources/WorkspaceKit/GlobalHotkey.swift": {
+    "dependencies": "/Users/akhlaqahmad/local-projects/my-dock-my/DockedMy/Packages/DockWindowKit/.build/arm64-apple-macosx/debug/WorkspaceKit.build/GlobalHotkey.d",
+    "object": "/Users/akhlaqahmad/local-projects/my-dock-my/DockedMy/Packages/DockWindowKit/.build/arm64-apple-macosx/debug/WorkspaceKit.build/GlobalHotkey.swift.o",
+    "swiftmodule": "/Users/akhlaqahmad/local-projects/my-dock-my/DockedMy/Packages/DockWindowKit/.build/arm64-apple-macosx/debug/WorkspaceKit.build/GlobalHotkey~partial.swiftmodule",
+    "swift-dependencies": "/Users/akhlaqahmad/local-projects/my-dock-my/DockedMy/Packages/DockWindowKit/.build/arm64-apple-macosx/debug/WorkspaceKit.build/GlobalHotkey.swiftdeps",
+    "diagnostics": "/Users/akhlaqahmad/local-projects/my-dock-my/DockedMy/Packages/DockWindowKit/.build/arm64-apple-macosx/debug/WorkspaceKit.build/GlobalHotkey.dia"
+  },
+  "/Users/akhlaqahmad/local-projects/my-dock-my/DockedMy/Packages/WorkspaceKit/Sources/WorkspaceKit/IconResolver.swift": {
+    "dependencies": "/Users/akhlaqahmad/local-projects/my-dock-my/DockedMy/Packages/DockWindowKit/.build/arm64-apple-macosx/debug/WorkspaceKit.build/IconResolver.d",
+    "object": "/Users/akhlaqahmad/local-projects/my-dock-my/DockedMy/Packages/DockWindowKit/.build/arm64-apple-macosx/debug/WorkspaceKit.build/IconResolver.swift.o",
+    "swiftmodule": "/Users/akhlaqahmad/local-projects/my-dock-my/DockedMy/Packages/DockWindowKit/.build/arm64-apple-macosx/debug/WorkspaceKit.build/IconResolver~partial.swiftmodule",
+    "swift-dependencies": "/Users/akhlaqahmad/local-projects/my-dock-my/DockedMy/Packages/DockWindowKit/.build/arm64-apple-macosx/debug/WorkspaceKit.build/IconResolver.swiftdeps",
+    "diagnostics": "/Users/akhlaqahmad/local-projects/my-dock-my/DockedMy/Packages/DockWindowKit/.build/arm64-apple-macosx/debug/WorkspaceKit.build/IconResolver.dia"
+  },
+  "/Users/akhlaqahmad/local-projects/my-dock-my/DockedMy/Packages/WorkspaceKit/Sources/WorkspaceKit/LoginItem.swift": {
+    "dependencies": "/Users/akhlaqahmad/local-projects/my-dock-my/DockedMy/Packages/DockWindowKit/.build/arm64-apple-macosx/debug/WorkspaceKit.build/LoginItem.d",
+    "object": "/Users/akhlaqahmad/local-projects/my-dock-my/DockedMy/Packages/DockWindowKit/.build/arm64-apple-macosx/debug/WorkspaceKit.build/LoginItem.swift.o",
+    "swiftmodule": "/Users/akhlaqahmad/local-projects/my-dock-my/DockedMy/Packages/DockWindowKit/.build/arm64-apple-macosx/debug/WorkspaceKit.build/LoginItem~partial.swiftmodule",
+    "swift-dependencies": "/Users/akhlaqahmad/local-projects/my-dock-my/DockedMy/Packages/DockWindowKit/.build/arm64-apple-macosx/debug/WorkspaceKit.build/LoginItem.swiftdeps",
+    "diagnostics": "/Users/akhlaqahmad/local-projects/my-dock-my/DockedMy/Packages/DockWindowKit/.build/arm64-apple-macosx/debug/WorkspaceKit.build/LoginItem.dia"
+  },
+  "/Users/akhlaqahmad/local-projects/my-dock-my/DockedMy/Packages/WorkspaceKit/Sources/WorkspaceKit/WorkspaceLauncher.swift": {
+    "dependencies": "/Users/akhlaqahmad/local-projects/my-dock-my/DockedMy/Packages/DockWindowKit/.build/arm64-apple-macosx/debug/WorkspaceKit.build/WorkspaceLauncher.d",
+    "object": "/Users/akhlaqahmad/local-projects/my-dock-my/DockedMy/Packages/DockWindowKit/.build/arm64-apple-macosx/debug/WorkspaceKit.build/WorkspaceLauncher.swift.o",
+    "swiftmodule": "/Users/akhlaqahmad/local-projects/my-dock-my/DockedMy/Packages/DockWindowKit/.build/arm64-apple-macosx/debug/WorkspaceKit.build/WorkspaceLauncher~partial.swiftmodule",
+    "swift-dependencies": "/Users/akhlaqahmad/local-projects/my-dock-my/DockedMy/Packages/DockWindowKit/.build/arm64-apple-macosx/debug/WorkspaceKit.build/WorkspaceLauncher.swiftdeps",
+    "diagnostics": "/Users/akhlaqahmad/local-projects/my-dock-my/DockedMy/Packages/DockWindowKit/.build/arm64-apple-macosx/debug/WorkspaceKit.build/WorkspaceLauncher.dia"
+  }
+}
