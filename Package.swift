@@ -14,7 +14,7 @@ let package = Package(
     targets: [
         .target(
             name: "DockWindowKit",
-            dependencies: ["AppCore", "DisplayKit", "DesignSystem", "WorkspaceKit"]
+            dependencies: [.product(name: "AppCore", package: "docked-appcore"), .product(name: "DisplayKit", package: "docked-displaykit"), .product(name: "DesignSystem", package: "docked-designsystem"), .product(name: "WorkspaceKit", package: "docked-workspacekit")]
         )
     ]
 )
