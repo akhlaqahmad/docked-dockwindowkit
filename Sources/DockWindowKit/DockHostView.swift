@@ -3,6 +3,7 @@ import AppCore
 import DesignSystem
 import WorkspaceKit
 
+@MainActor
 public struct DockHostView: View {
     @State private var hoveredItemID: UUID?
     @State private var isDropTargeted = false

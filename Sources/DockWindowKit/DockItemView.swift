@@ -3,6 +3,7 @@ import AppKit
 import AppCore
 import WorkspaceKit
 
+@MainActor
 struct DockItemView: View {
     let item: DockItem
     let appearance: DockAppearance
