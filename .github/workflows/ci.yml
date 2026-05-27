@@ -1,0 +1,29 @@
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  swift:
+    name: Swift build & test
+    runs-on: macos-14
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Show Swift toolchain
+        run: |
+          swift --version
+          xcrun --find swift
+
+      - name: Build
+        run: swift build -v
+
+      - name: Test (only if Tests/ exists)
+        run: |
+          if [ -d Tests ]; then
+            swift test --parallel
+          else
+            echo "No Tests/ directory — skipping swift test"
+          fi
