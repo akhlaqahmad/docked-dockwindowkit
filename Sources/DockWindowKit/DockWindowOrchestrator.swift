@@ -39,9 +39,14 @@ public final class DockWindowOrchestrator {
     /// reconcile. `withObservationTracking` fires exactly once per registered
     /// read set, so we re-call it after every change to keep watching.
     private func observeLibrary() {
-        withObservationTracking { [weak self] in
-            guard let self else { return }
-            // Read every field we care about so the tracker registers them.
+        // The apply closure runs synchronously on the current isolation
+        // context (MainActor here), so `self` is implicitly captured strongly
+        // and no `[weak self]` is needed — Swift 6 strict concurrency flags
+        // the redundant capture as "reference to captured var in
+        // concurrently-executing code" because the closure type is
+        // permissively sendable. The onChange closure may run on a different
+        // context, so it keeps the `[weak self]` + Task bridge.
+        withObservationTracking {
             for dock in self.manager.library.docks {
                 _ = dock.id
                 _ = dock.isEnabled
