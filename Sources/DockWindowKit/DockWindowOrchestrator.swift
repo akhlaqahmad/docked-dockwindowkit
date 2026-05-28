@@ -23,12 +23,38 @@ public final class DockWindowOrchestrator {
             Task { @MainActor in self?.reconcile() }
         }
         reconcile()
+        observeLibrary()
     }
 
     public func stop() {
+        observation?.cancel()
+        observation = nil
         for (_, controller) in controllers { controller.close() }
         controllers.removeAll()
         displayObserver.stop()
+    }
+
+    /// Re-arm `withObservationTracking` so any change to docks (added /
+    /// removed / `isEnabled` flipped / `behavior.autoHide` changed) triggers a
+    /// reconcile. `withObservationTracking` fires exactly once per registered
+    /// read set, so we re-call it after every change to keep watching.
+    private func observeLibrary() {
+        withObservationTracking { [weak self] in
+            guard let self else { return }
+            // Read every field we care about so the tracker registers them.
+            for dock in self.manager.library.docks {
+                _ = dock.id
+                _ = dock.isEnabled
+                _ = dock.behavior.autoHide
+                _ = dock.position
+                _ = dock.screenID
+            }
+        } onChange: { [weak self] in
+            Task { @MainActor in
+                self?.reconcile()
+                self?.observeLibrary()
+            }
+        }
     }
 
     public func reconcile() {
