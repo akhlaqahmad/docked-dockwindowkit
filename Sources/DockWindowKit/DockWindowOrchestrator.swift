@@ -55,7 +55,11 @@ public final class DockWindowOrchestrator {
                 _ = dock.screenID
             }
         } onChange: { [weak self] in
-            Task { @MainActor in
+            // Re-capture [weak self] explicitly on the Task closure too.
+            // Without this, Swift 6 strict concurrency on Xcode 15.4 flags
+            // the outer-captured-weak-self as "captured var in
+            // concurrently-executing code" when Task references it.
+            Task { @MainActor [weak self] in
                 self?.reconcile()
                 self?.observeLibrary()
             }
